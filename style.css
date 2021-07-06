@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+#menu{
+    margin: 0;
+    padding: 25px 20px;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+#nav-heading{
+    top: 10px;
+    left: 5px;
+    position:absolute;
+}
+.menu-items{
+    margin-left: 700px;
+}
+.menu-items li{
+    display: inline;
+    list-style: none;
+    margin: 30px 15px;
+}
+.menu-items a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.menu-items a:hover{
+    color: crimson;
+}
+.home{
+    background: url(images/food/food2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#home-heading{
+    color:rgb(236, 247, 232);
+    padding-top: 250px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.home p{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(245, 186, 58);
+}
+.home span{
+    color: crimson;
+}
+.button{
+    text-align: center;
+    margin: 40px 25px;
+}
+.button a{
+    font-size: 25px;
+    font-weight: 700;
+    margin:4px 20px;
+    padding: 12px 25px;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: .4s;
+}
+.button a:hover{
+    background-image: linear-gradient(to right, #AA076B 0%, #61045F  51%, #AA076B  100%)
+}
+
+#about-us{
+    background-color: rgb(170, 166, 166);
+    display: flex;
+    background-image: url("images/shapes/7.png");
+}
+#about-photo img{
+    width: 500px;
+    margin: 50px;
+}
+#about-text{
+    margin: 50px 15px;
+    padding-top: 200px;
+}
+#about-text h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 35px;
+    margin: 10px;
+    padding: 10px;
+}
+#about-text p{
+    margin: 10px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 500;
+}
+#recipie{
+    background-color: lightyellow;
+}
+#recipie-heading{
+    margin: 20px;
+    padding: 20px;
+}
+#recipie-heading h1{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+}
+#recipie-heading p{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+#recipie-items{
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.recipie-item{
+    border-radius: 15px;
+    margin: 5px 20px;
+    padding: 0;
+    background-color: rgb(229, 232, 238);
+    width:28%;
+    box-shadow: 5px 5px 20px gray;
+}
+.recipie-item a img{
+    padding: 17px;
+    height: 230px;
+    width: 282px;
+    border-radius: 25px;
+    
+}
+.recipie-item h2{
+    padding: 10px;
+    font-weight: 700;
+}
+.recipie-item p{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#reservation {
+    margin-top: 25px;
+    padding: 40px 500px;
+    background-color: linen;
+    width: 100%;
+}
+#reservation form h1{
+    font-size: 30px;
+    color: #5f0038;
+}
+.form-item{
+    display: flex;
+    margin: 10px;
+    padding: 5px 10px;
+   
+}
+.form-item p{
+    padding-right: 20px;
+    font-size: 18px;
+    font-weight: 700;
+}
+#form-button{
+    margin: 30px 10px;
+    padding: 8px 150px;
+    background-color: #5f0038;
+    color: white;
+}
+
+footer{
+    height: 350px;
+    width: 100%;
+    background-color: rgb(71, 69, 69);
+}
+footer h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 20px;
+    padding: 30px;
+}
+footer h1 span{
+    color: crimson;
+}
+#media-link{
+    text-align: center;
+    margin: 10px;
+    padding: 0 35%;
+    display: flex;
+}
+#media-link a img{
+    padding: 0 20px;
+}
+
+#go-back {
+    color: white;
+    text-decoration: none;
+    margin-left: 630px;
+    margin-top: 20px;
+    font-weight: 800;
+}
+footer p{
+    text-align: center;
+    margin-top: 25px;
+}
